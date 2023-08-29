@@ -82,7 +82,7 @@ function LinkedList() {
         }
       }
 
-      console.log("at(index):", current);
+      console.log("at(" + index + "):", current);
       return current;
     },
 
@@ -106,7 +106,7 @@ function LinkedList() {
       const removedValue = current.next.value;
       current.next = null;
 
-      console.log('pop():', current)
+      console.log("pop():", current);
       return removedValue;
     },
 
@@ -131,7 +131,7 @@ function LinkedList() {
       let node = this.head;
       while (node) {
         if (node.value === value) {
-          console.log("find(value):", index);
+          console.log("find(" + value + "):", index);
           return index;
         }
         index++;
@@ -150,7 +150,7 @@ function LinkedList() {
         node = node.next;
       }
       string += "NULL";
-      console.log(string);
+      console.log("toString():", string);
     },
 
     // Insert a new node with the provided
