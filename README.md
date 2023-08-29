@@ -4,7 +4,7 @@ This code defines a basic linked list data structure with essential methods. It 
 
 ## Usage
 
-This LinkedList project contains two factory function where with `LinkedList` factory 
+This LinkedList project contains two factory function where  `LinkedList` factory function represent the full list and `Node` contains a value property and a link to the nextNode.
 
 ```
 list.append(value);      // Add a node with value to the end of the list
